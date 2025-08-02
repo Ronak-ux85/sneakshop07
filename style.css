@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+.store{
+	margin: auto;
+	min-height: 100%;
+	width: 60%;
+	
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+	padding: 40px;
+	font-family: sans-serif;
+    /*background-color: lightgray;*/
+}
+.shoes{
+	width: 100%;
+	height: 150%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+.cards{
+	width: 30%;
+	height: 50%;
+	/*border: 2px solid black;*/
+	border-radius: 30px;
+	padding: 15px;
+    box-shadow: 8px 8px 20px lightgray;
+
+}
+.image1{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 30px;
+}
+
+
+.image1 img{
+	border-radius: 30px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.image1 img:hover{
+	scale: 1.2;
+	transition: 0.4s all ease-in;
+}
+.details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 20px 10px;
+    font-family: "Outfit", sans-serif;
+
+    }
+.discription{
+	display: flex;
+	flex-direction: column;
+	gap: 9.5px;
+}
+.cart img{
+	width: 41px;
+}
